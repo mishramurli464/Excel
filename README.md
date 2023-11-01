@@ -15,3 +15,15 @@ VLOOKUP, HLOOKUP, and XLOOKUP are Excel functions used to search for specific in
 ```excel
 =XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], [match_mode], [search_mode])
 ```
+## Index function 
+The INDEX function in Excel is a function used to retrieve a specific value from a range of cells in a worksheet. 
+1) Syntax for a 1D dataset:
+```excel
+=INDEX(array, row_number)
+```  
+array: The range of cells (column or row) from which you want to retrieve a value.  
+row_number: The row number (or index) specifying which value you want to retrieve.  
+2) Syntax for a 2D dataset:
+```excel
+=INDEX(array, row_number, column_number)
+```  
