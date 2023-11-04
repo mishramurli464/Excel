@@ -113,3 +113,10 @@ Example:
 ```excel
 =UPPER("excel") returns "EXCEL" and =LOWER("EXCEL") returns "excel"
 ```
+## insert comment
+right click and insert comment  
+## slicer
+used for doing filter ooperation in efficient way.  
+it basically gives the values of diff. fields in form of slices  
+## texttocolumn
+present in data tab
