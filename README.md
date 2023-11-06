@@ -27,6 +27,12 @@ row_number: The row number (or index) specifying which value you want to retriev
 ```excel
 =INDEX(array, row_number, column_number)
 ```
+## MATCH function  
+ MATCH function is used to find the relative position of a specified value within a range of cells.  
+ ```EXCEL
+=MATCH(lookup_value, lookup_array, [match_type])
+```
+
 ## String Function 
 1)CONCATENATE (or CONCAT):
 
